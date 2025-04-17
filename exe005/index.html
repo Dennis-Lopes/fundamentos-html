@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+<body>
+    <h1>Formulário de Inscrição</h1>
+
+<form action="#" method="post">
+    <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+    </div><br>
+    
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Seu email" required>
+    </div><br>
+    
+    <div>
+        <label for="Telefone">Whatsapp</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
+    </div><br>
+    
+    <div>
+        <label for="experiencia">Área de atuação</label>
+        <input type="radio" name="experiencia" id="experiencia" value="Desenvolvimento" required>Desenvolvimento
+        <input type="radio" name="experiencia" id="experiencia" value="Quality Assurance (QA)" required>Quality Assurance (QA)
+        <input type="radio" name="experiencia" id="experiencia" value="Análise de Dados" required>Análise de Dados
+        <input type="radio" name="experiencia" id="experiencia" value="Infraestrutura" required>Infraestrutura
+    </div><br>
+    
+    <div>
+        <label for="observacoes">observações</label>
+        <textarea id="observacoes" name="observacoes" rows="4" cols="50" placeholder="Escreva aqui suas observações"></textarea>
+    </div><br>
+    
+    <div>
+        <label for="ofertas">Desejo receber novidades e ofertas por email</label>
+        <input type="checkbox" name="ofertas" id="ofertas">
+    </div><br>
+    
+    <button type="submit">Enviar</button>
+</form>
+</body>
+</html>
